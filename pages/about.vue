@@ -13,8 +13,8 @@
               will guarantee that files are saved and retrieved successfully and
               continuously for the duration specified by the user.
             </p>
-            <a class="btn mt-6" href="https://presale.privesecure.io/register"
-              >Enter Presale</a
+            <a class="btn mt-6" href="/buy"
+              >Buy Presale</a
             >
           </div>
         </div>
