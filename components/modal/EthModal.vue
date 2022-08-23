@@ -67,6 +67,32 @@ export default {
     background-color: #fff;
     color: #000;
 }
+.input-container {
+    width: fit-content;
+    position: relative;
+    margin-top: 16px;
+}
+  
+.input-field {
+    padding: 8px 12px;
+    position: relative;
+    width: 300px;
+    color: #000000;
+    font-weight: 700;
+    border-radius: 6.62185px;
+    outline: none;
+}
+.right-txt {
+    position: absolute;
+    right: 8px;
+    top: 10px;
+    font-style: normal;
+    font-size: 12.4675px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
 @media screen and (max-width:500px){
    
    .black-box{

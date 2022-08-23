@@ -14,11 +14,11 @@
                     <h2 class="md:mb-6 mb-8 text-gradient text-3xl">Select Provider</h2>
                     <div class=" img-container">   
                        <div>
-                        <img src='../../assets/img/meta.svg' alt='logo' className="img"/>
+                        <a href='/afterconnect'><img src='../../assets/img/meta.svg' alt='logo' className="img"/></a>
                         <p class="text-white">MetaMask</p>
                        </div>
                        <div>
-                        <img src='../../assets/img/wallet.svg' alt='logo' className="img"/>
+                        <a href='/afterconnect'><img src='../../assets/img/wallet.svg' alt='logo' className="img"/></a>
                         <p class="text-white">Wallet Connect</p>
                        </div>
                    </div>

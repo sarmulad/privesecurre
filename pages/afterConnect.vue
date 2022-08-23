@@ -27,11 +27,11 @@
       </div>
     </section>
 
-    <section class="py-16 content-block block-1">
+    <section class="py-16 content-block block-1 ">
        <h2 class="text-gradient md:text-4xl text-center text-xl mb-6">
           How to Buy
         </h2>
-      <div class="container mx-auto my-16 items-center">
+      <div class=" flex  items-center mx-auto block-flex">
         <div class="text-container">
           <h2 class="text-gradient my-10 md:my-0 md:mb-6 md:text-3xl text-xl">
             Step 1          
@@ -49,7 +49,7 @@
             (simply paste https://buy.provesecure.io into the Trust Wallet Browser) for all mobile purchases.
           </p>
         </div>
-        <div class="img-container">
+        <div class="img-container w-full">
           <img src="../assets/img/Phone.svg" alt="" />
         </div>
       </div>
@@ -128,7 +128,7 @@
     
 
     <section class="my-16 content-block">
-      <div class="container mx-auto items-center">
+      <div class="flex  items-center mx-auto block-flex reverse">
         <div class="img-container">
           <img src="../assets/img/secure.svg" alt="" />
         </div>
@@ -250,20 +250,39 @@ export default {
   left: -1px;
   background: linear-gradient(146.87deg, #5f36ff 3.58%, #08ff42 88.73%);
 }
+.block-flex{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0rem 3rem;
 
+}
 @media (max-width: 992px) {
    .step-container {
     grid-template-columns: 1fr 1fr;
   }
+  /* .content-block{
+    display: flex;
+    flex-direction: column;
+  } */
 }
 
 @media (max-width: 768px) {
-  .content-block .container .step-container {
+  .container .step-container {
     grid-template-columns: auto;
   }
-.step-container
+ .step-container
    {
     grid-template-columns: 1fr;
+  }
+  .block-flex{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 2rem;
+  }
+  .reverse{
+    flex-direction: column !important;
   }
   .block-1,
   .block-2 {
@@ -284,10 +303,12 @@ export default {
   .content-block h2 {
     line-height: 1.5;
   }
+  .wallet-container{
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 450px) {
-
   .progress{
     width: 300px;
   }

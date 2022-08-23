@@ -48,7 +48,7 @@
           v-show="showNav"
         >
           <ul>
-            <li><Nuxt-link to="/about"> About</Nuxt-link></li>
+            <li ><Nuxt-link to="/about"> About</Nuxt-link></li>
             <li><Nuxt-link to="/tokenomics"> Tokenomics</Nuxt-link></li>
             <li><Nuxt-link to="/roadmap"> Roadmap</Nuxt-link></li>
             <li><Nuxt-link to="/buy"> How To Buy</Nuxt-link></li>
